@@ -2,7 +2,7 @@
 *~
 /.vscode
 __pycache__
-djangogirlsvenv
+/myvenv
 db.sqlite3
-/static
+/blog/static
 .DS_Store
