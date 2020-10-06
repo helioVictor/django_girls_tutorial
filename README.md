@@ -22,13 +22,8 @@ Django (/ˈdʒæŋɡoʊ/ jang-goh) é um framework para aplicações web gratuit
 `$ source myvenv/bin/activate`
 5. Garantir que a última versão do PIP está instalada:  
 `(myvenv) ~$ python -m pip install --upgrade pip`
-### Instalando Pacotes com requisitos
-1. Crie um arquivo chamado `requirements.txt`:  
-`djangogirls/requirements.txt`
-2. Adicione o seguinte texto nele:  
-`Django~=2.2.4`
-3. Ao final, execute esse comando:  
-`(myvenv) ~$ pip install -r requirements.txt`
+### Instalando Pacotes com requisitos 
+`(myvenv) ~$ pip install -r requirements.txt` 
 ### Banco de Dados - SQLite3
 1. Execute o seguinte comando para inicializar o SQLite3 (Banco de Dados):  
 `(myvenv) ~/djangogirls$ python manage.py migrate`
